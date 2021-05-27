@@ -1,7 +1,7 @@
 import cv2 as cv
 import numpy as np
 
-face_cascade = cv.CascadeClassifier('haarcascade_frontalface_default.xml') 
+# face_cascade = cv.CascadeClassifier('haarcascade_frontalface_default.xml') 
 
 cap = cv.VideoCapture(0, cv.CAP_DSHOW)
 while True:
